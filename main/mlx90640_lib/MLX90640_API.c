@@ -18,7 +18,7 @@
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wtype-limits"
 
-#include "MLX90640_I2C_Driver.h"
+#include "../mlx90640_i2c_driver.h"
 #include "MLX90640_API.h"
 #include <math.h>
 
