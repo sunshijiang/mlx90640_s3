@@ -1,7 +1,8 @@
-idf_component_register(SRCS "main.c" "mlx90640_lib/MLX90640_API.c" "mlx90640_i2c_driver.c"
-                    INCLUDE_DIRS "." "mlx90640_lib"
+idf_component_register(SRCS "MLX90640_API.c" "main.c" "MLX90640_API.c" "MLX90640_I2C_Driver.c"
+                    INCLUDE_DIRS "." 
     REQUIRES
         driver
+        esp_driver_i2c
         esp_timer
         freertos
         )
