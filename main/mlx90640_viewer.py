@@ -2,6 +2,8 @@ import serial
 import serial.tools.list_ports
 import threading
 import numpy as np
+import matplotlib
+matplotlib.use('TkAgg')  # 设置交互式后端
 import matplotlib.pyplot as plt
 import re
 import sys
